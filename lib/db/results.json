@@ -1,0 +1,10 @@
+{
+    "introvert": {
+        "title": "Introvert",
+        "description": "You are an introvert. You prefer to be alone and you don't like to be around people."
+    },
+    "extrovert": {
+        "title": "Extrovert",
+        "description": "You are an extrovert. You like to be around people and you don't like to be alone."
+    }
+}

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "question": "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
+        "required": true,
+        "options": [
+            {
+                "value": "A",
+                "label": "Don't dare to interrupt them",
+                "score": 1
+            },
+            {
+                "value": "B",
+                "label": "Think it's more important to give them some of your time, work can wait",
+                "score": 1
+            },
+            {
+                "value": "C",
+                "label": "Listen, but with only with half an ear",
+                "score": -1
+            },
+            {
+                "value": "D",
+                "label": "Interrupt and explain that you're really busy at the moment",
+                "score": -1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
+        "required": true,
+        "options": [
+            {
+                "value": "A",
+                "label": "Look at your watch every two minutes",
+                "score": -1
+            },
+            {
+                "value": "B",
+                "label": "Bubble with inner anger, but keep quiet",
+                "score": -1
+            },
+            {
+                "value": "C",
+                "label": "Explain to other equally impatient people in the room that the doctor is always running late",
+                "score": 1
+            },
+            {
+                "value": "D",
+                "label": "Complain in a loud voice, while tapping your foot impatiently",
+                "score": 1
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You",
+        "required": true,
+        "options": [
+            {
+                "value": "A",
+                "label": "Don’t dare contradict them",
+                "score": -1
+            },
+            {
+                "value": "B",
+                "label": "Think that they are obviously right",
+                "score": -1
+            },
+            {
+                "value": "C",
+                "label": "Defend your own point of view, tooth and nail",
+                "score": 1
+            },
+            {
+                "value": "D",
+                "label": "Continuously interrupt your colleague",
+                "score": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "You are taking part in a guided tour of a museum. You:",
+        "required": true,
+        "options": [
+            {
+                "value": "A",
+                "label": "Are a bit too far towards the back so don’t really hear what the guide is saying",
+                "score": -1
+            },
+            {
+                "value": "B",
+                "label": "Follow the group without question",
+                "score": -1
+            },
+            {
+                "value": "C",
+                "label": "Make sure that everyone is able to hear properly",
+                "score": 1
+            },
+            {
+                "value": "D",
+                "label": "Are right up the front, adding your own comments in a loud voice",
+                "score": 1
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "You can’t find your car keys. You:",
+        "required": true,
+        "options": [
+            {
+                "value": "A",
+                "label": "Don’t want anyone to find out, so you take the bus instead",
+                "score": -1
+            },
+            {
+                "value": "B",
+                "label": "Panic and search madly without asking anyone for help",
+                "score": -1
+            },
+            {
+                "value": "C",
+                "label": "Grumble without telling your family why you’re in a bad mood",
+                "score": 1
+            },
+            {
+                "value": "D",
+                "label": "Accuse those around you for misplacing them",
+                "score": 1
+            }
+        ]
+    }
+]
