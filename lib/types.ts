@@ -23,3 +23,7 @@ export type QuestionCardProps = {
     totalQuestions: number;
 }
   
+export type Result = {
+    title: string;
+    description: string;
+}

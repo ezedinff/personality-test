@@ -1,6 +1,7 @@
+import { ResultContext } from "lib/contexts";
 import { Question } from "lib/types";
 import router from "next/router";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 
 const useQuestions = () => {
@@ -43,11 +44,11 @@ const useSWR: <T>(key: string, fetcher: (key: string) => Promise<T>) => {
 
 
 
-export const useTest = () => {
+const useTest = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const { questions, isLoading, isError } = useQuestions();
     const [answers, setAnswers] = useState<{ [key: string]: string }>({});
-    const [result, setResult] = useState<any>(undefined);
+    const { setResult } = useContext(ResultContext);
     useEffect(() => {
         if (questions) {
             const question = questions[currentQuestion];
@@ -72,15 +73,11 @@ export const useTest = () => {
                     "Content-Type": "application/json",
                 },
             };
-            // fetfh result and redirect to result page with result
             fetch("/api/result", request)
                 .then((res) => res.json())
                 .then((result) => {
                     setResult(result);
-                    router.push({
-                        pathname: "/result",
-                        query: { result: JSON.stringify(result) },
-                    });
+                    router.push("/result");
                 })
                 .catch((error) => {
                     console.log(error);
@@ -98,3 +95,6 @@ export const useTest = () => {
         isError,
     };
 };
+
+
+export default useTest;

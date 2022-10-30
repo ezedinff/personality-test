@@ -2,13 +2,13 @@ import Head from 'next/head'
 import Link from 'next/link'
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen py-2 h-full w-full overflow-hidden">
+    <div className="flex flex-col min-h-screen h-full w-full overflow-hidden">
       <Head>
-        <title>Home</title>
+        <title>Home | Personality Test</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col justify-center w-full flex-1 bg-gradient-to-r from-white via-purple-200 to-purple-200 overflow-hidden scroll-hidden h-full">
-          <div className="flex flex-col justify-center w-full flex-1 md:px-20 lg:px-30 xl:px-40 2xl:px-60 xs:px-10 overflow-hidden scroll-hidden h-full">
+          <div className="flex flex-col justify-center w-full flex-1 md:px-20 lg:px-30 xl:px-40 2xl:px-60 xs:px-30 overflow-hidden scroll-hidden h-full">
             <h1 className="text-6xl font-bold sm:text-8xl xs:text-2xl text-purple-800">
               Personality Test
             </h1>
