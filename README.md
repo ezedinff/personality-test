@@ -5,7 +5,7 @@ This is a personality test that I made to became builder at TeamWay. It's a simp
 
 ## How to run the project
 ```bash
-$ git clone
+$ git clone https://github.com/ezedinff/personality-test.git
 
 $ cd personality-test
 
