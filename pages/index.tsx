@@ -1,5 +1,5 @@
+import LinkButton from '@/components/LinkButton'
 import Head from 'next/head'
-import Link from 'next/link'
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen h-full w-full overflow-hidden">
@@ -16,9 +16,7 @@ export default function Home() {
               Find out if you are an introvert or an extrovert, and learn how to improve your personality. our test is based on the Myers-Briggs Type Indicator (MBTI) test and above all, it's fun and easy to take.
             </p>
             <div className="flex justify-start md:w-1/2 sm:text-3xl xs:w-full lg:w-3/4 z-10">
-              <Link href="/test" className="mt-5 text-2xl font-bold text-white bg-purple-600 rounded-md p-3 hover:bg-purple-700 cursor-pointer">
-                  Take the test
-              </Link>
+              <LinkButton href="/personality-test">Take the test</LinkButton>
             </div>
           </div>
           <div className='absolute bottom-0 w-full'>

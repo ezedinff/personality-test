@@ -7,7 +7,7 @@ type LinkButtonProps = {
 }
 const LinkButton: React.FC<LinkButtonProps> = ({ href, children }) => {
     return (
-        <Link href="/">
+        <Link href={href}>
             <button className="mt-5 text-2xl font-bold text-white bg-purple-600 rounded-md p-3 hover:bg-purple-700 cursor-pointer" >
                 {children}
             </button>
